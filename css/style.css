@@ -1,19 +1,19 @@
 body {
-    background-color: #fafafa;
+    background-color:indigo;
 }
 
-.titulo {
+.topo {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Sherwood', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: goldenrod;
 }
 
 .container {
-    width: 1000px;
-    height: 500px;
-    margin: 150px;
-    background-color: red;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,20 +22,22 @@ body {
 .table {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     
+    width: 1000px;
+    height: 500px;
 }
 
 .card {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: lightslategrey;
     width: 150px;
-    height: 210px;
-    border: 1px solid gold;
+    height: 230px;
+    border: 2px solid gold;
     border-radius: 5%;
-    
+    margin-left: 10px; 
 }
 
 .imgBackCard {
