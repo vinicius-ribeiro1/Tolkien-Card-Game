@@ -6,10 +6,12 @@ body {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Sherwood', sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin-top: 70px;
     margin-bottom: 70px;
     color: goldenrod;
+    text-shadow: 1px 1px 2px #4a3b32;
+    letter-spacing: 2px;
 }
 
 .container {
@@ -35,7 +37,7 @@ body {
     background-color: lightslategrey;
     width: 150px;
     height: 230px;
-    border: 2px solid gold;
+    border: 2px solid goldenrod;
     border-radius: 5%;
     margin-left: 10px; 
 }
