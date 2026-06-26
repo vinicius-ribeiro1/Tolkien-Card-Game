@@ -1,6 +1,6 @@
- function inicio() {                                                           // Define quantas cartas serão criadas (min:2 - max: 7)
-    let qtdCartas = Number(prompt("Quantas cartas você quer jogar?"));
-    if (qtdCartas < 2 || qtdCartas > 7) {
+ function inicio() {                                                           // Define quantas cartas serão criadas
+    let qtdCartas = Number(prompt("Com quantas cartas quer jogar?"));
+    if (qtdCartas < 4 || qtdCartas > 14 || qtdCartas % 2 != 0 ) {
         alert("Número de cartas inválido! Reiniciando...");
         inicio();
     }
@@ -12,7 +12,6 @@ inicio();
 
     function adicionarCartas(qtdCartas) {
         const mesa = document.querySelector(".table");
-
         for (let i = 0; i < qtdCartas ; i++) {
             mesa.innerHTML += `
                 <div class="card">

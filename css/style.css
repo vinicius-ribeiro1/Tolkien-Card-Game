@@ -3,7 +3,7 @@ body {
 }
 
 .topo {
-    font-size: 50px;
+    font-size: 65px;
     font-weight: bold;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin-top: 70px;
@@ -30,7 +30,7 @@ body {
 .table {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     
     width: 1000px;
     height: 400px;
@@ -45,7 +45,12 @@ body {
     height: 230px;
     border: 2px solid goldenrod;
     border-radius: 5%;
-    margin-left: 10px; 
+    margin-left: 15px;
+    margin-top: 15px; 
+}
+
+.card:hover {
+    cursor: pointer;
 }
 
 img {
