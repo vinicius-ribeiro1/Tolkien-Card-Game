@@ -10,26 +10,22 @@ function inicio() {
     }
 }
 
-
 function virarCarta(carta) {
     carta.classList.toggle('flip');
 }
 
-    /*function adicionarCartas(qtdCartas) {
-        const mesa = document.querySelector(".table");
-        for (let i = 0; i < qtdCartas ; i++) {
-            mesa.innerHTML += `
-                <div class="card">
-                    <div class="front">
-                    <img src="imagens/lotr.png" alt="">
-                    </div>
-                    <div class="back">
-                    <img src="imagens/one_ring.gif" alt="">
-                    </div>
-                </div>
-                `;
-        } 
-    }*/
-    
+const baralho = [
+    { id: 1, img: "onering.gif" },
+    { id: 2, img: "aragorn.gif" },
+    { id: 3, img: "frodo.gif" },
+    { id: 4, img: "gandalf.gif" },
+    { id: 5, img: "legolas.gif" },
+    { id: 6, img: "gollum.gif" },
+    { id: 7, img: "sam.gif" },
+]
+
+
+
+
 
 inicio();
